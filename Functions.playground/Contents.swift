@@ -8,6 +8,7 @@ sayHello()
 
 // Uncomment this line to see the error that is printed in the console.
 // (You can uncomment a line by removing the // at the beginning of the line.)
+//This does nto work because it is not in scope. The greeting variable only exist inside the function sayHello
 //print(greeting)
 
 
@@ -34,4 +35,5 @@ let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
 // Uncomment this line to see the error that is printed in the console.
+//This does not work because there is no arguement
 //sayHelloToCat()
